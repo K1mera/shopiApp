@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layoutBase {
+    @apply flex flex-col items-center px-60 flex-wrap gap-6 mt-[88px] font-montserrat;
+}
+.sectionTitle {
+    @apply text-xl font-montserrat font-extrabold;
+}
+.sideMenuLayout {
+    @apply w-[400px] h-[calc(100vh-60px)] flex flex-col gap-6 p-6 fixed bg-gray-50 right-0 top-14 shadow-lg border border-gray-200 rounded-md z-40  overflow-auto;
+}
+.invalidInput {
+    @apply border-red-600 text-red-600 border;
+}
